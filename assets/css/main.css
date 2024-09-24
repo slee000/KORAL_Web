@@ -2478,6 +2478,34 @@
 				width: 100%;
 			}
 
+		.image.fit2 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image.fit2 img {
+				display: block;
+				width: 100%;
+				max-width:500px;
+			}			
+
+		.image.fit3 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+			.image.fit3 img {
+				display: block;
+				width: 100%;
+				max-width:500px;				
+			}	
+			
 /* List */
 
 	ol {
